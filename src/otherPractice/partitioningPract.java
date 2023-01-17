@@ -19,7 +19,8 @@ public class partitioningPract {
 	
 	public static void main(String[] args) {
 		
-		int arr[] = {9,12,5,10,14,3,10};
+		//int arr[] = {9,12,5,10,14,3,10};
+		int arr[] = {14,12,11,10,9,8,10};
 		int pivot = 10;
 		
 		partition(arr,pivot);
@@ -45,12 +46,13 @@ public class partitioningPract {
 			if(arr[i] > pivot) {
 				i++;
 			}
+			/*
 			else if(arr[i] == pivot){
 				//swap(arr,i,j);
 				i++;
 				j++;
 				
-			}
+			}*/
 			else {
 				swap(arr,i,j);
 				i++;
