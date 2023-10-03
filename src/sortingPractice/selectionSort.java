@@ -2,6 +2,10 @@ package sortingPractice;
 
 public class selectionSort {
 	
+	/*
+	 * we take the first element as minimum
+	 */
+	
 	public static void swap(int[] arr, int i, int j) {
 		int temp = arr[i];
 		arr[i] = arr[j];

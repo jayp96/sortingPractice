@@ -18,6 +18,8 @@ public class bubbleSort {
 	}
 //We place the biggest element first here
 	
+//The first element gets to its position after 1st iteration and so on
+	
 //We try comparing the 1st element with 0th element and so on and swap it.
 	
 	public static void main(String[] args) {
@@ -31,6 +33,7 @@ public class bubbleSort {
 				}
 			}
 		}
+		
 		
 		for(int itr = 0; itr < arr.length; itr++) {
 		System.out.print(arr[itr]);
